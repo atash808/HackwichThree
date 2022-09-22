@@ -30,6 +30,15 @@ class ViewController: UIViewController {
             self.view.backgroundColor = UIColor.blue
         }
 }
+
+    @IBOutlet var Red: UILabel!
     
+    @IBOutlet var Blue: UILabel!
+    
+    @IBAction func magicButton(_ sender: Any) {
+        
+        
 }
+}
+
 

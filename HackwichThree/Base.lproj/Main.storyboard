@@ -25,14 +25,45 @@
                                     <action selector="changeColorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fxn-kT-uCz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziM-3W-DBh">
+                                <rect key="frame" x="175" y="351" width="56" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdZ-13-Hkp">
+                                <rect key="frame" x="175" y="267" width="56" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3e-c3-vbh">
+                                <rect key="frame" x="136" y="631" width="142" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Magic Button"/>
+                                <connections>
+                                    <action selector="magicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9j-TO-zRc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Blue" destination="ziM-3W-DBh" id="t4V-Ow-yAF"/>
+                        <outlet property="Red" destination="cdZ-13-Hkp" id="lZp-UC-OmN"/>
+                        <outlet property="changeColorButtonPressed" destination="ziM-3W-DBh" id="8eA-HE-5JN"/>
+                        <outlet property="changeColorLabel" destination="8bC-Xf-vdC" id="o2U-27-5b7"/>
+                        <outlet property="changeLabel1Color" destination="cdZ-13-Hkp" id="jad-Yr-LMA"/>
+                        <outlet property="changeLabelColor" destination="8bC-Xf-vdC" id="JBX-K3-azc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391" y="100"/>
+            <point key="canvasLocation" x="285.50724637681162" y="109.15178571428571"/>
         </scene>
     </scenes>
     <resources>
